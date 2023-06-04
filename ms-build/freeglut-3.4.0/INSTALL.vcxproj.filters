@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\ae35146e89584d7bdac1f719c09c9b7e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{45342B93-1873-322E-A2A8-51CFB8CCF375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

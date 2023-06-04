@@ -1,0 +1,36 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckFunctionExists.c
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/CMakeLists.txt
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/FreeGLUTConfig.cmake.in
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/config.h.in
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/freeglut.pc.in
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/freeglut.rc.in
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/src/fg_version.h.in
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_FCNTL_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_STDBOOL_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PARAM_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/CMakeFiles/CheckIncludeFiles/HAVE_USBHID_H.c

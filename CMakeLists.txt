@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.2)
+project("Pong")
+add_subdirectory(freeglut-3.4.0)
+include_directories(freeglut-3.4.0/include)
+add_executable(${PROJECT_NAME} main.cpp)
+find_package(OpenGL REQUIRED)
+target_link_libraries(${PROJECT_NAME} opengl32 freeglut_static)

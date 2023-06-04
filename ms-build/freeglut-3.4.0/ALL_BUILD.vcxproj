@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D36D463-3068-324B-9B86-1AEEBC37CD98}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\include;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\include;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\include;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\include;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject -BC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build --check-stamp-file C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\config.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.pc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.rc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src\fg_version.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject -BC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build --check-stamp-file C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\config.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.pc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.rc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src\fg_version.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject -BC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build --check-stamp-file C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\config.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.pc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.rc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src\fg_version.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/freeglut-3.4.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject -BC:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build --check-stamp-file C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/ms-build/freeglut-3.4.0/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.22\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\FreeGLUTConfig.cmake.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\config.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.pc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\freeglut.rc.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\freeglut-3.4.0\src\fg_version.h.in;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c;C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\ZERO_CHECK.vcxproj">
+      <Project>{3801EF5E-C0A4-32E1-A4E8-393AE45214E9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\3dview.vcxproj">
+      <Project>{DAF68EF4-154E-3144-B14C-DFD45FA0BFAE}</Project>
+      <Name>3dview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\3dview_static.vcxproj">
+      <Project>{3EF2AA5E-B1CC-39C8-A2C6-96C5907D8042}</Project>
+      <Name>3dview_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CallbackMaker.vcxproj">
+      <Project>{488E9B4C-C27E-3B07-B004-05BE7711CEAE}</Project>
+      <Name>CallbackMaker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\CallbackMaker_static.vcxproj">
+      <Project>{E048F71C-746E-3FD3-A42A-71B0A7DE5E41}</Project>
+      <Name>CallbackMaker_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Fractals.vcxproj">
+      <Project>{4B0F4268-8512-340C-88FF-CFFE98212940}</Project>
+      <Name>Fractals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Fractals_random.vcxproj">
+      <Project>{6303C533-0DE4-352B-A2EC-51AB4B77B972}</Project>
+      <Name>Fractals_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Fractals_random_static.vcxproj">
+      <Project>{C0CCA2D6-BF94-3ADC-B964-4B383E1468A5}</Project>
+      <Name>Fractals_random_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Fractals_static.vcxproj">
+      <Project>{8BDA9B6B-308D-3492-9D6F-C04EB59E0ABA}</Project>
+      <Name>Fractals_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Lorenz.vcxproj">
+      <Project>{C01814ED-DAF9-30D8-AF04-DC4A0BEC0790}</Project>
+      <Name>Lorenz</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\Lorenz_static.vcxproj">
+      <Project>{B822B760-D2C3-3A1B-961D-E4D8B1720E85}</Project>
+      <Name>Lorenz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\One.vcxproj">
+      <Project>{6AE1A83B-1E47-334D-B689-C0C01AB2AF1D}</Project>
+      <Name>One</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\One_static.vcxproj">
+      <Project>{55D28FE8-5CF6-3B86-9EC0-EA9F30AEABBE}</Project>
+      <Name>One_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\freeglut.vcxproj">
+      <Project>{B588B9F6-4F40-34AD-803A-757B268429ED}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\freeglut_static.vcxproj">
+      <Project>{8FEB612B-0FFB-3C39-BACF-727752A24C26}</Project>
+      <Name>freeglut_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\indexed_color.vcxproj">
+      <Project>{0581D3A1-7B1D-3FA8-8937-27B5AC6F5C7D}</Project>
+      <Name>indexed_color</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\indexed_color_static.vcxproj">
+      <Project>{3CC4B6D4-B7CD-323D-A3CC-5702AE241E8F}</Project>
+      <Name>indexed_color_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\joystick.vcxproj">
+      <Project>{C742436D-7EDD-3361-A781-72088D83D777}</Project>
+      <Name>joystick</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\joystick_static.vcxproj">
+      <Project>{2DF9F973-3E97-3567-80F8-23CA91719A3B}</Project>
+      <Name>joystick_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\keyboard.vcxproj">
+      <Project>{B320BB5C-5CC2-38A0-AF76-0358590E46CA}</Project>
+      <Name>keyboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\keyboard_static.vcxproj">
+      <Project>{6BF416EA-284F-39C2-ACA0-13D7DF69435A}</Project>
+      <Name>keyboard_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\multi-touch.vcxproj">
+      <Project>{F5D46357-73FD-3054-8B2A-A788CC7653BB}</Project>
+      <Name>multi-touch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\multi-touch_static.vcxproj">
+      <Project>{F239A2D5-D4E5-3384-BD23-926016F20154}</Project>
+      <Name>multi-touch_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\resizer.vcxproj">
+      <Project>{E9828B6B-D8DD-34DF-907E-BB1C56CC0B99}</Project>
+      <Name>resizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\resizer_static.vcxproj">
+      <Project>{13C335B7-2C7F-3A13-8819-AC0B08FB5454}</Project>
+      <Name>resizer_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\shapes.vcxproj">
+      <Project>{671BD71E-A206-31E0-B7BF-EE1B3F5E7A0E}</Project>
+      <Name>shapes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\shapes_static.vcxproj">
+      <Project>{8D75B2A0-8187-3735-B262-941D96E390B5}</Project>
+      <Name>shapes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\smooth_opengl3.vcxproj">
+      <Project>{B733C616-55B3-34B2-B894-685EF1836CCF}</Project>
+      <Name>smooth_opengl3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\smooth_opengl3_static.vcxproj">
+      <Project>{958B3EE2-3942-3B10-B7D5-FDCA41C0E7C2}</Project>
+      <Name>smooth_opengl3_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\spaceball.vcxproj">
+      <Project>{9A03B80D-E242-3B8E-AEA8-575A1BD51FCF}</Project>
+      <Name>spaceball</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\spaceball_static.vcxproj">
+      <Project>{978C0868-416F-3EF2-B268-93FF7D2A03C1}</Project>
+      <Name>spaceball_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\subwin.vcxproj">
+      <Project>{A15F3F42-64D4-36B7-8BBA-CCA35E19AFDA}</Project>
+      <Name>subwin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\subwin_static.vcxproj">
+      <Project>{CA0A99D7-2265-3EF5-AC46-16C9898627B6}</Project>
+      <Name>subwin_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\timer.vcxproj">
+      <Project>{57A835F8-7F51-3082-8491-42B473D831BC}</Project>
+      <Name>timer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\timer_callback.vcxproj">
+      <Project>{19E09734-43B1-3E4B-90D8-ACCCB3C55971}</Project>
+      <Name>timer_callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\timer_callback_static.vcxproj">
+      <Project>{CBB25769-4FBF-3DC6-8C7E-41BC01B477AF}</Project>
+      <Name>timer_callback_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\freeglut-3.4.0\timer_static.vcxproj">
+      <Project>{6AAC6BED-CBA5-3BB3-8B40-42231C30BD56}</Project>
+      <Name>timer_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/ASUS/Documents/programming/Computer_graphics/graphics_miniproject/cmake_graphics_miniproject/CMakeLists.txt
+  main.cpp
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(36,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(40,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(41,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(80,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(80,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(81,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(81,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(84,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(84,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(88,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(88,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(157,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(158,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(167,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\main.cpp(168,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Pong.vcxproj -> C:\Users\ASUS\Documents\programming\Computer_graphics\graphics_miniproject\cmake_graphics_miniproject\ms-build\Debug\Pong.exe
